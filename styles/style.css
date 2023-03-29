@@ -3,8 +3,13 @@
 :root {
     --branco: #FFFFFF;
     --cor-de-fundo: #EBECEE;
+    --laranja: #EB9B00;
+    --azul-degrade:  linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-menu: 'Poppins', sans-serif;
 }
 
 body {
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-menu);
+    font-weight: 400;
 }
