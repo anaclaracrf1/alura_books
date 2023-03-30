@@ -2,6 +2,7 @@
     background: var(--azul-degrade);
     color:var(--branco);
     text-align: center;
+    align-items: center;
     padding: 2.5rem 2rem;
 }
 
@@ -31,4 +32,7 @@
     font-weight: 400;
     text-align: center;
     color: var(--branco);
+    background-image: url("../Imagens/Pesquisa.svg");
+    background-repeat: no-repeat;
+    align-items: center;
 }

@@ -1,0 +1,98 @@
+
+.carrossel_titulo {
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    padding: 1em 0 0.5em 0;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-next,
+ .swiper-button-prev {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    padding: .3rem 0 0 0;
+}
+
+.swiper-wrapper {
+    margin-top: .5rem;
+}
+
+.card {
+    background-color: var(--branco);
+    border-radius: 10px;
+    margin:.9rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: .6rem;
+}
+
+.card_descriçao {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .5rem;
+}
+
+.descriçao_titulo {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--laranja);
+}
+
+.descriçao_titulo_livro {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--azul-degrade);
+    margin: .4rem 0;
+}
+
+.descriçao_texto {
+    font-size: 14px;
+    font-family: var(--fonte-principal);
+}
+
+.card_imagem {
+    margin: .3rem;
+    border-radius: 7px;
+}
+
+.card_botoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista_botoes {
+    display: flex;
+    margin: .3rem;
+    gap: .5rem;
+}
+
+.lista_botoes_item {
+    justify-content: space-between;
+    gap: .4rem;
+}
+
+.botao_saiba_mais {
+    padding: 1em 1.5em;
+    border-radius: 8px;
+    background-color: var(--laranja);
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+}
+
+.lista_descriçao_estrelas {
+    display: flex;
+    gap: .2rem;
+    margin-bottom: .5rem;
+}
