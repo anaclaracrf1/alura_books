@@ -1,6 +1,9 @@
-@import url("header.css");
-@import url("banner.css");
-@import url("carrossel.css");
+@import url("/styles/header.css");
+@import url("/styles/banner.css");
+@import url("/styles/carrossel.css");
+@import url("/styles/tópicos.css");
+@import url("/styles/contato.css");
+@import url("/styles/rodape.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 :root {
