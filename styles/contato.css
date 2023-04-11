@@ -24,7 +24,7 @@
 .contato_input_email {
     padding: 1em;
     border: 1px solid var(--azul-degrade);
-    border-radius: 24px;
+    border-radius: 10px;
     width: 90%;
     color: var(--azul-degrade);
 }
@@ -32,6 +32,6 @@
 .contato_input_email::placeholder {
     font-family: var(--fonte-principal);
     color: var(--azul-degrade);
-    background-image: url("../Imagens/email.svg") no-repeat;
+    background: url("../Imagens/email.svg") no-repeat;
     padding-left: 2em;
 }
