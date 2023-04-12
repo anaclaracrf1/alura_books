@@ -14,7 +14,7 @@
 }
 
 .swiper-button-next,
- .swiper-button-prev {
+ .swiper-button-prev { 
     display: none;
 }
 
@@ -95,4 +95,31 @@
     display: flex;
     gap: .2rem;
     margin-bottom: .5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel_titulo {
+        font-size: 26px;
+        padding: 1.4em 0 1em 0;
+        margin-bottom: 0.8em;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 60%;
+        justify-content: center;
+    }
+
+    .swiper-button-next, .swiper-button-prev { 
+        display: block;
+        top:60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 1.8em auto;
+    }
 }
