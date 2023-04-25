@@ -37,11 +37,12 @@
 }
 
 @media screen and (min-width:1000px) {
-    .contato {
+    .contato{
         display:flex;
-        justify-content: center;
-        align-items: center;
-        
+        align-items:center; 
+        justify-content:center;
+        padding: 3em;
+        gap: 0.6em;
     }
 
     .contato_titulo {
@@ -50,10 +51,10 @@
     
     .contato_texto {
         font-size: 18px;
-
     }
 
     .contato_input_email {
-        width: 30%;
+        width: 100%;
+        padding: 1em;
     }
 }
