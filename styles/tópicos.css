@@ -30,12 +30,8 @@
     font-weight: 700;
 }
 
-@media screen and (min-width:1024px) {
-
-    .tópicos {
-        padding: 3em 0;
-    }
-
+@media screen and (min-width:1000px) {
+    
     .tópicos_titulo, .tópicos_links {
         font-size: 24px;
     }
@@ -46,6 +42,8 @@
 
     .tópicos_links {
         text-decoration: none;
+        padding: 0.6em 1em;
+        margin-bottom: 2em ;
     }
     
 }
