@@ -70,6 +70,10 @@
     align-items: center;
 }
 
+.carrinho_card {
+    margin-bottom: .4em;
+}
+
 .lista_botoes {
     display: flex;
     margin: .3rem;
@@ -114,12 +118,56 @@
     }
 
     .swiper-button-next, .swiper-button-prev { 
-        display: block;
+        display:block;
         top:60%;
     }
 
     .card {
         width: 40%;
         margin: 1.8em auto;
+    }
+}
+
+@media screen and  (min-width:1600px) {
+    .swiper-slide img {
+        width: auto;
+    }
+
+    .carrossel_titulo {
+        font-size: 32px;
+    }
+
+    .descriçao_titulo {
+        font-size: 34px;
+    }
+
+    .descriçao_titulo_livro {
+        font-size: 24px;
+    }
+
+    .descriçao_texto {
+        font-size: 21px;
+    }
+
+    .card {
+        padding: 1.5em auto;
+    }
+    
+    .card_imagem {
+        width:40%;
+        margin: .7em;
+        border-radius: 8px; 
+    }
+
+    .botao_saiba_mais {
+        margin-right: .6em;
+        padding: auto;
+        font-size: 22px;
+        border-radius: 10px;
+    }
+    
+    .lista_botoes {
+        margin: .5rem;
+        gap: .8rem;
     }
 }

@@ -36,6 +36,10 @@
         font-size: 24px;
     }
 
+    .tópicos_lista {
+        gap: .5em; 
+    }
+
     .tópicos_titulo {
         padding-bottom: 2em;
     }
@@ -46,4 +50,26 @@
         margin-bottom: 2em ;
     }
     
+}
+
+@media screen and (min-width:1600px) {
+     .tópicos {
+        padding: 3em 25vw;
+     }
+
+    .tópicos_titulo {
+        font-size: 34px;
+    }
+
+    .tópicos_lista {
+        gap: .8em; 
+    }
+
+    .tópicos_links {
+        font-size: 28px;  
+    }
+   
+    .tópicos_titulo {
+        padding-bottom: 1.6em;
+    }
 }

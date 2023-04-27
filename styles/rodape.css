@@ -9,6 +9,7 @@
 .lista_rodape{
     display: none;
 }
+
 @media screen and (min-width:1000px) {
     .rodape{
         display: flex;
@@ -40,6 +41,36 @@
 
     .rodape_titulo {
         font-size: 24px;
+    }
+
+}
+
+@media screen and (min-width:1600px) {
+
+    .rodape {
+        padding: 3em 2em;
+    }
+
+    .lista_rodape {
+        border-left: 1px solid var(--cinza-escuro);
+        padding-left:1em;
+    }
+
+    .lista_rodape_titulo{
+        font-size: 22px;
+    }
+
+    .lista_rodape_link {
+        font-size: 18px;
+        margin-left: 0.8em;
+    }
+
+    .rodape_titulo {
+        font-size: 32px;
+    }
+
+    .lista_rodape_item{
+        margin: 1em 0; 
     }
 
 }

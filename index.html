@@ -69,8 +69,14 @@
 
         <div class="container">
             <a href="#"><img class="container_imagem container_imagem_favoritos" src="Imagens/Favoritos.svg" alt="Favoritos"></a>
-            <a href="#"><img class="container_imagem" src="Imagens/Sacola.svg" alt="Carrinho de compras"></a>
-            <a href="#"><img class="container_imagem" src="Imagens/Usuário.svg" alt="Meu perfil"></a>
+            <a href="#" class="container_link">
+                <img class="container_imagem" src="Imagens/Sacola.svg" alt="Carrinho de compras">
+                <p class="container_texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container_link">
+                <img class="container_imagem" src="Imagens/Usuário.svg" alt="Meu perfil">
+                <p class="container_texto">Meu perfil</p>
+            </a>
         </div>
     </header>
 
@@ -82,35 +88,36 @@
         </section>
 
         <section class="carrossel">
-            <h2 class="carrossel_titulo">Últimos lançamentos</h2>
-                
-            <div class="swiper">
-                <div class="swiper-pagination"></div>
-                <div class="swiper-wrapper">
-                    <!-- slides -->
-                    <div class="swiper-slide"><img src="/Imagens/livro_um.svg" 
-                        alt="Livro Liderança em Design "></div>
-                    <div class="swiper-slide"><img src="/Imagens/livro_dois.svg" 
-                        alt="Livro JavaScript assertivo "></div>
-                    <div class="swiper-slide"><img src="/Imagens/livro_tres.svg" 
-                        alt="Livro Arquitetura de Software desenvolvido"></div>
-                    <div class="swiper-slide"><img src="/Imagens/livro_quatro.svg" 
-                        alt="Livro Gestão de produtos"></div>
-                    <div class="swiper-slide"><img src="/Imagens/livro_cinco.svg" 
-                        alt="Livro Guia Front-end"></div>
-                    <div class="swiper-slide"><img src="/Imagens/livro_sete.svg" 
-                        alt="Livro Mean"></div>
-                    <div class="swiper-slide"><img src="/Imagens/livro_oito.svg" 
-                        alt="Livro Angular 11 e Firebase"></div>
-                    <div class="swiper-slide"><img src="/Imagens/livro_nove.svg" 
-                        alt="Livro Turning de SQL"></div>
-                    <div class="swiper-slide"><img src="/Imagens/livro_dez.svg" 
-                        alt="Livro Métricas Ágeis"></div>
+        <h2 class="carrossel_titulo">Últimos lançamentos</h2>
+            <div class="carrossel_container">
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <!-- slides -->
+                        <div class="swiper-slide"><img src="/Imagens/livro_um.svg" 
+                            alt="Livro Liderança em Design "></div>
+                        <div class="swiper-slide"><img src="/Imagens/livro_dois.svg" 
+                            alt="Livro JavaScript assertivo "></div>
+                        <div class="swiper-slide"><img src="/Imagens/livro_tres.svg" 
+                            alt="Livro Arquitetura de Software desenvolvido"></div>
+                        <div class="swiper-slide"><img src="/Imagens/livro_quatro.svg" 
+                            alt="Livro Gestão de produtos"></div>
+                        <div class="swiper-slide"><img src="/Imagens/livro_cinco.svg" 
+                            alt="Livro Guia Front-end"></div>
+                        <div class="swiper-slide"><img src="/Imagens/livro_sete.svg" 
+                            alt="Livro Mean"></div>
+                        <div class="swiper-slide"><img src="/Imagens/livro_oito.svg" 
+                            alt="Livro Angular 11 e Firebase"></div>
+                        <div class="swiper-slide"><img src="/Imagens/livro_nove.svg" 
+                            alt="Livro Turning de SQL"></div>
+                        <div class="swiper-slide"><img src="/Imagens/livro_dez.svg" 
+                            alt="Livro Métricas Ágeis"></div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-
+            
+            
             <div class="card">
                 <div class="card_descriçao">
                     <div class="descriçao">
@@ -127,53 +134,54 @@
                     </ul>
                     <a href="#" class="botao_saiba_mais">Saiba Mais</a>
                 </div>
-            </div>
+            </div></div>
         </section>
 
         <section class="carrossel">
             <h2 class="carrossel_titulo">Mais vendidos</h2>
-                
-            <div class="swiper">
-                <div class="swiper-pagination"></div>
-                <div class="swiper-wrapper">
-                    <!-- slides -->
-                    <div class="swiper-slide"><img src="/Imagens/livro_sete.svg" 
-                        alt="Livro Liderança em Design "></div>
-                    <div class="swiper-slide"><img src="/Imagens/livro_dois.svg" 
-                        alt="Livro JavaScript assertivo "></div>
-                    <div class="swiper-slide"><img src="/Imagens/livro_nove.svg" 
-                        alt="Livro Arquitetura de Software desenvolvido"></div>
-                </div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-
-            <div class="card">
-                <div class="card_descriçao">
-                    <div class="descriçao">
-                        <ul class="lista_descriçao_estrelas">
-                            <li class="lista_descriçao_estrelas_item"><img src="/Imagens/Star 1.svg" alt="Estrela dourada"></li>
-                            <li class="lista_descriçao_estrelas_item"><img src="/Imagens/Star 1.svg" alt="Estrela dourada"></li>
-                            <li class="lista_descriçao_estrelas_item"><img src="/Imagens/Star 1.svg" alt="Estrela dourada"></li>
-                            <li class="lista_descriçao_estrelas_item"><img src="/Imagens/Star 1.svg" alt="Estrela dourada"></li>
-                            <li class="lista_descriçao_estrelas_item"><img src="/Imagens/Star 1.svg" alt="Estrela dourada"></li>
-                        </ul>
-                        <h3 class="descriçao_titulo">Autora do Mês</h3>
-                        <h2 class="descriçao_titulo_livro">Juliana Agarikov</h2>
-                        <p class="descriçao_texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+            <div class="carrossel_container"></div>    
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper">
+                        <!-- slides -->
+                        <div class="swiper-slide"><img src="/Imagens/livro_sete.svg" 
+                            alt="Livro Liderança em Design "></div>
+                        <div class="swiper-slide"><img src="/Imagens/livro_dois.svg" 
+                            alt="Livro JavaScript assertivo "></div>
+                        <div class="swiper-slide"><img src="/Imagens/livro_nove.svg" 
+                            alt="Livro Arquitetura de Software desenvolvido"></div>
                     </div>
-                    <img src="/Imagens/Perfil-escritora 1.svg" alt="Foto escritora do mês" class="card_imagem">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
-                <div class="card_botoes">
-                    <ul class="lista_botoes">
-                        <li class="lista_botoes_item"><img src="/Imagens/Favoritos.svg" alt="Favoritos"></li>
-                        <li class="lista_botoes_item"><img src="/Imagens/Sacola.svg" alt="Carrinho"></li>
-                    </ul>
-                    <a href="#" class="botao_saiba_mais">Saiba Mais</a>
+
+                <div class="card">
+                    <div class="card_descriçao">
+                        <div class="descriçao">
+                            <ul class="lista_descriçao_estrelas">
+                                <li class="lista_descriçao_estrelas_item"><img src="/Imagens/Star 1.svg" alt="Estrela dourada"></li>
+                                <li class="lista_descriçao_estrelas_item"><img src="/Imagens/Star 1.svg" alt="Estrela dourada"></li>
+                                <li class="lista_descriçao_estrelas_item"><img src="/Imagens/Star 1.svg" alt="Estrela dourada"></li>
+                                <li class="lista_descriçao_estrelas_item"><img src="/Imagens/Star 1.svg" alt="Estrela dourada"></li>
+                                <li class="lista_descriçao_estrelas_item"><img src="/Imagens/Star 1.svg" alt="Estrela dourada"></li>
+                            </ul>
+                            <h3 class="descriçao_titulo">Autora do Mês</h3>
+                            <h2 class="descriçao_titulo_livro">Juliana Agarikov</h2>
+                            <p class="descriçao_texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+                        </div>
+                        <img src="/Imagens/Perfil-escritora 1.svg" alt="Foto escritora do mês" class="card_imagem">
+                    </div>
+                    <div class="card_botoes">
+                        <ul class="lista_botoes">
+                            <li class="lista_botoes_item"><img src="/Imagens/Favoritos.svg" alt="Favoritos"></li>
+                            <li class="lista_botoes_item"><img src="/Imagens/Sacola.svg" alt="Carrinho" class="carrinho_card"></li>
+                        </ul>
+                        <a href="#" class="botao_saiba_mais">Saiba Mais</a>
+                    </div>
                 </div>
             </div>
         </section>
-
+            
         <section class="tópicos">
             <h2 class="tópicos_titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
             <ul class="tópicos_lista">
@@ -222,11 +230,11 @@
             <ul class="lista_rodape">
                 <li class="lista_rodape_titulo">Educação</li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/CasaDoCodigo.svg" alt="Logo casa do código">
+                    <img class="rodape_imagens" src="/Imagens/CasaDoCodigo.svg" alt="Logo casa do código">
                     <a href="#" class="lista_rodape_link">Casa do código</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/Caelum.svg" alt="Logo Caelum">
+                    <img class="rodape_imagens" src="/Imagens/Caelum.svg" alt="Logo Caelum">
                     <a href="#" class="lista_rodape_link">Caelum</a>
                 </li>
             </ul>
@@ -234,31 +242,31 @@
             <ul class="lista_rodape">
                 <li class="lista_rodape_titulo">Educação online</li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/Alura.svg" alt="Logo Alura">
+                    <img class="rodape_imagens" src="/Imagens/Alura.svg" alt="Logo Alura">
                     <a href="#" class="lista_rodape_link">Alura</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/AluraEmpresas.svg" alt="Logo Alura para empresas">
+                    <img class="rodape_imagens" src="/Imagens/AluraEmpresas.svg" alt="Logo Alura para empresas">
                     <a href="#" class="lista_rodape_link">Alura para empresas</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/AluraLATAM.svg" alt="Logo Alura LATAM">
+                    <img class="rodape_imagens" src="/Imagens/AluraLATAM.svg" alt="Logo Alura LATAM">
                     <a href="#" class="lista_rodape_link">Alura LATAM</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/AluraStart.svg" alt="Logo Alura start">
+                    <img class="rodape_imagens" src="/Imagens/AluraStart.svg" alt="Logo Alura start">
                     <a href="#" class="lista_rodape_link">Alura start</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/MusicDot.svg" alt="Logo Music Dot">
+                    <img class="rodape_imagens" src="/Imagens/MusicDot.svg" alt="Logo Music Dot">
                     <a href="#" class="lista_rodape_link">Music Dot</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/AluraLingua.svg" alt="Logo Alura Língua">
+                    <img class="rodape_imagens" src="/Imagens/AluraLingua.svg" alt="Logo Alura Língua">
                     <a href="#" class="lista_rodape_link">Alura Língua</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/PM3.svg" alt="Logo PM3">
+                    <img class="rodape_imagens" src="/Imagens/PM3.svg" alt="Logo PM3">
                     <a href="#" class="lista_rodape_link">PM3</a>
                 </li>
             </ul>
@@ -266,31 +274,31 @@
             <ul class="lista_rodape">
                 <li class="lista_rodape_titulo">Comunidade</li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/HipstersTech.svg" alt="Logo Hipsters ponto Tech">
+                    <img class="rodape_imagens" src="/Imagens/HipstersTech.svg" alt="Logo Hipsters ponto Tech">
                     <a href="#" class="lista_rodape_link">Hipsters ponto Tech</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/ScubaDev.svg" alt="Logo Scuba Dev">
+                    <img class="rodape_imagens" src="/Imagens/ScubaDev.svg" alt="Logo Scuba Dev">
                     <a href="#" class="lista_rodape_link">Scuba Dev</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/LayersTech.svg" alt="Logo Layers ponto Tech">
+                    <img class="rodape_imagens" src="/Imagens/LayersTech.svg" alt="Logo Layers ponto Tech">
                     <a href="#" class="lista_rodape_link">Layers ponto Tech</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/LikeABoss.svg" alt="Logo Like a boss">
+                    <img class="rodape_imagens" src="/Imagens/LikeABoss.svg" alt="Logo Like a boss">
                     <a href="#" class="lista_rodape_link">Like a boss</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/CarreiraSemFronteira.svg" alt="Logo Carreira Sem Fronteira">
+                    <img class="rodape_imagens" src="/Imagens/CarreiraSemFronteira.svg" alt="Logo Carreira Sem Fronteira">
                     <a href="#" class="lista_rodape_link">Carreira Sem Fronteira</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/HipstersJobs.svg" alt="Logo Hipsters ponto jobs">
+                    <img class="rodape_imagens" src="/Imagens/HipstersJobs.svg" alt="Logo Hipsters ponto jobs">
                     <a href="#" class="lista_rodape_link">Hipsters ponto jobs</a>
                 </li>
                 <li class="lista_rodape_item">
-                    <img src="/Imagens/GUJ.svg" alt="Logo GUJ">
+                    <img class="rodape_imagens" src="/Imagens/GUJ.svg" alt="Logo GUJ">
                     <a href="#" class="lista_rodape_link">GUJ</a>
                 </li>
             </ul>

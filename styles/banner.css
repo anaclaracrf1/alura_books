@@ -65,3 +65,24 @@
     }
 
 }
+
+@media screen and  (min-width:1600px) {
+    .banner {
+        padding: 6em;
+    }
+
+    .banner_titulo {
+        font-size: 44px;
+    }
+
+    .banner_texto {
+        font-size: 24px;
+        margin: 1.5em 0;
+    }
+
+    .banner_pesquisa::placeholder {
+        font-size: 24px;
+        background-position: 2em;
+    }
+
+}
