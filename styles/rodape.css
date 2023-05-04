@@ -18,6 +18,11 @@
     }
 
     .lista_rodape {
+        border-left: 1px solid var(--cinza);
+        padding-left:1em;
+    }
+
+    .lista_rodape {
         display: block;
     }
 
@@ -33,6 +38,11 @@
         margin-left: 0.6em;
     }
     
+    .lista_rodape_link:hover {
+        font-size: 14.5px;
+        font-weight:700 ;
+    }
+
     .lista_rodape_item{
         display: flex;
         align-items: center;
@@ -49,11 +59,6 @@
 
     .rodape {
         padding: 3em 2em;
-    }
-
-    .lista_rodape {
-        border-left: 1px solid var(--cinza-escuro);
-        padding-left:1em;
     }
 
     .lista_rodape_titulo{

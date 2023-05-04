@@ -32,6 +32,10 @@
 
 @media screen and (min-width:1000px) {
     
+    .tópicos{
+        padding: 1.5em 11em;
+    }
+    
     .tópicos_titulo, .tópicos_links {
         font-size: 24px;
     }
@@ -48,6 +52,11 @@
         text-decoration: none;
         padding: 0.6em 1em;
         margin-bottom: 2em ;
+    }
+
+    .tópicos_links:hover {
+        background-color: var(--laranja-escuro);
+        padding: 0.7em 1.1em;;
     }
     
 }

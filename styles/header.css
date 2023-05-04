@@ -72,6 +72,7 @@
     display: none;
 }
 
+
 .container_texto {
     display: none;
 }
@@ -103,8 +104,7 @@
     .opçoes_item {
         padding: 1em 1em;
         text-transform: uppercase;
-        font-size: 16px;
-        
+        font-size: 16px; 
     }
 
     .opçoes_link {
@@ -133,6 +133,10 @@
         position: absolute;
     }
 
+    .opçoes_link:hover {
+        font-weight: 600;
+    }
+
     .lista-menu-item:hover {
         background: var(--azul-degrade);
     }
@@ -140,6 +144,10 @@
     .lista-menu-item:hover>.lista-menu-link {
         -webkit-text-fill-color: var(--branco);
         text-decoration: none;
+    }
+
+    #hover_categorias:hover {
+        font-weight: 600;
     }
 
 }

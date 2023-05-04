@@ -97,6 +97,7 @@
 
 .botao_saiba_mais:hover {
     background-color: var(--laranja-escuro);
+    padding: 1.1em 1.6em;
 }
 
 .lista_descriçao_estrelas {
