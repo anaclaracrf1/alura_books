@@ -16,13 +16,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .tópicos_itens{
-    margin: 1em 0.5em;
+    margin: 1em 0.5em; 
 }
 
 .tópicos_links {
+    text-decoration-line: none;
     color: var(--branco);
     padding: 1em 1.2em;
     background-color: var(--laranja);
